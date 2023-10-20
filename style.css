@@ -80,7 +80,8 @@ html,body{
     left: 0;
     position: absolute;
     line-height: 0.9;
-    font-family: "kajiro";
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 11vw;
     font-weight: 100;
@@ -94,7 +95,8 @@ top: 0%;
     letter-spacing: 1px;
     font-size: 40px;
     padding: 0.5vw 1.4vw;
-    font-family: "kajiro";
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 #hero-right{ 
     display: flex;
