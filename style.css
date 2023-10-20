@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'kajiro';
+    src: url('Kajiro-Bold.ttf') format('ttf');
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -80,8 +85,7 @@ html,body{
     left: 0;
     position: absolute;
     line-height: 0.9;
-    font-family: 'Antonio', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'kajiro', sans-serif;
     color: white;
     font-size: 11vw;
     font-weight: 100;
@@ -93,10 +97,9 @@ top: 0%;
 #hero-left button{
     pointer-events: all;
     letter-spacing: 1px;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0.5vw 1.4vw;
-    font-family: 'Antonio', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'kajiro', sans-serif;
 }
 #hero-right{ 
     display: flex;
