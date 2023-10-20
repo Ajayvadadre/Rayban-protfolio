@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.back{
+    height: 100vh;
+    width: 100%; 
+}
+.top{
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: 5;
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1920px;
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+#nav-left,#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+#nav a{
+    pointer-events: all;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hero{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translate(0%,-50%);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    
+
+}
+#hero #hero-left{
+    height: 100px;
+    min-width: 60%;
+
+
+}
+#hero-left .elem{
+    position: relative;
+    height: 10vw;
+    overflow: hidden;
+}
+
+#hero-left .elem h1{
+    top: 100%;
+    left: 0;
+    position: absolute;
+    line-height: 0.9;
+    font-family: "kajiro";
+    color: white;
+    font-size: 11vw;
+    font-weight: 100;
+}
+#hero-left .elem h1:nth-child(1){
+top: 0%;
+
+}
+#hero-left button{
+    pointer-events: all;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding: 0.5vw 1.4vw;
+    font-family: "kajiro";
+}
+#hero-right{ 
+    display: flex;
+    flex-direction:column; 
+    align-items: flex-end;
+    height: 530px;
+    width: 23%; 
+    color: white;
+}
+#hero-right p{
+    font-size: 11px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 3vw;
+}
+#hero-right #img{
+height: 300px;
+width: 18vw;
+margin-bottom: 20px;
+background-image: url(https://images.unsplash.com/photo-1504844926427-09841005263b?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size:cover;
+background-position:center;
+}
+
+#hero-right p:nth-child(4){
+    margin-top: 8vw;
+}
+.back img{
+    object-fit: cover;
+height: 100%;
+width: 100%;
+}
